@@ -47,3 +47,8 @@ i =0
   end
   array
 end
+
+def find_a(array)
+
+  array
+end

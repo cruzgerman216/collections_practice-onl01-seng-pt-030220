@@ -61,3 +61,17 @@ end
 def sum_array(arr)
   arr.inject { |sum, n| sum + n }
 end
+
+def add_s(array)
+  newarr = []
+  i = 0
+  array.each do |element|
+    if i != 1
+      newarr.push("#{element}s")
+    else
+      newarr.push(element)
+    end
+    i = i + 1
+  end
+    newarr
+end

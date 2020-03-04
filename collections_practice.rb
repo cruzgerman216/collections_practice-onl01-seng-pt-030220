@@ -26,3 +26,11 @@ def sort_array_char_count(array)
     end
   end
 end
+
+def swap_elements(array, index1, index2)
+  dup = array[index1]
+  dup2 = array[index2]
+  array[index1] = dup2
+  array[index2] = dup
+  array
+end

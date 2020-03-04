@@ -49,6 +49,11 @@ i =0
 end
 
 def find_a(array)
-
-  array
+  newarr = []
+  array.each do |element|
+    if element[0] == "a"
+      newarry.push(element)
+    end
+  end
+    newarr
 end

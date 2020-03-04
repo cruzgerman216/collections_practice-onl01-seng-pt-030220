@@ -52,7 +52,7 @@ def find_a(array)
   newarr = []
   array.each do |element|
     if element[0] == "a"
-      newarry.push(element)
+      newarr.push(element)
     end
   end
     newarr
